@@ -1,0 +1,19 @@
+===BEGIN LAB1 SUBMISSION===
+student_id: 6705140043
+timestamp: 2026-09-01T07:18:31Z
+hostname: ubuntu
+---[user: getent passwd]---
+noah741:x:1002:1004::/home/noah741:/bin/sh
+---[group: getent group]---
+devs:x:1003:noah741
+---[user-in-group: id]---
+uid=1002(noah741) gid=1004(noah741) groups=1004(noah741),1003(devs)
+---[file stat: home file mode/owner]---
+/home/noah741/report_1740.txt mode=750 owner=noah741 group=devs
+---[sshd effective config]---
+port 2389
+permitrootlogin no
+passwordauthentication no
+---[integrity]---
+sshd_sha256: f506690784730b576ef4f626c2b2032567c232694e2bf188eca512b9bf830136
+===END LAB1 SUBMISSION===
